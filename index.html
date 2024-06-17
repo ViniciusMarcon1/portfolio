@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Font Awesome - Ícones -->
+    <script src="https://kit.fontawesome.com/fe535cfee5.js" crossorigin="anonymous"></script>
+    <!-- Estilo customizado -->
+    <link rel="stylesheet" href="estilo.css">
+    <title>Portfólio - Vini Marcon</title>
+    <style>
+
+        .fundo {
+            background-image: url('fotos/fundo.jpg');
+            background-size: cover; /* Ajusta a imagem para cobrir todo o elemento */
+            background-position: center; /* Centraliza a imagem no elemento */
+            background-repeat: no-repeat; /* Evita que a imagem se repita */
+        }
+
+        .fundo-footer{
+            background-image: url('fotos/fundo-footer.jpg');
+            background-size: cover; /* Ajusta a imagem para cobrir todo o elemento */
+            background-position: center; /* Centraliza a imagem no elemento */
+            background-repeat: no-repeat; 
+        }
+
+        .bg-black{
+            background-color: black;
+        }
+
+        .bg-card{
+            background-color: #141414;
+        }
+
+    </style>
+</head>
+
+<body class="bg-black text-light">
+    <div class="fundo">
+        <!-- Header Principal -->
+        <header>
+            <nav class=" navbar navbar-expand-md navbar-light">
+                <div class="container">
+                    <!-- Logo -->
+                    <a class="navbar-brand text-white" href="index.html"><i class="fa-brands fa-connectdevelop"></i></a>
+
+                    <!-- Butão toggler -->
+                    <button class="navbar-toggler bg-light" data-toggle="collapse" data-target="#nav-principal"><span
+                            class="navbar-toggler-icon"></span></button>
+
+                    <!-- Links -->
+                    <div class="collapse navbar-collapse" id="nav-principal">
+                        <ul class="navbar-nav ml-auto mr-2">
+                            <li class="nav-item"><a class="nav-link text-light" href="#projetos">Projetos</a></li>
+                            <li class="nav-item"><a class="nav-link text-light" href="#quemsou">Quem sou</a></li>
+                            <li class="nav-item"><a class="nav-link text-light" href="#contato">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Inicio LP  -->
+        <section>
+            <div class="container">
+                <div class="row justify-content-center text-light align-items-center" style="height: 672px;">
+                    <div>
+                        <h1 class="display-2 ">Vinicius Marcon</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Quem sou -->
+    <section id="quemsou" class="pb-5 pt-4">
+        <div class="container">
+            <div class="row justify-content-center text-light align-items-center text-center">
+                <!-- Textos -->
+                <div class="col-md-9  justify-content-center ">
+                    <div class="align-self-center justify-content-center text-light">
+                        <h1 class="display-4 pb-1">Quem Sou</h1>
+                        <p>Olá! Meu nome é Vinicius e sou estudante de Ciência da Computação na PUC. Atualmente, trabalho como cientista de dados, com uma paixão especial pelo desenvolvimento web e a constante evolução no mundo da tecnologia.</p>
+                        <p>Meu objetivo profissional é sempre aprender ao máximo e entregar resultados excepcionais, superando as expectativas e gerando valor significativo para aqueles que confiam em meu trabalho. Tenho um forte compromisso com a excelência e a inovação em cada projeto que assumo.</p>
+                        <p>Além da minha carreira em tecnologia, tenho uma paixão por fotografia, ciclismo e atividades ao ar livre, como trilhas e exercícios físicos. Nos meus momentos de lazer, também gosto de jogar xadrez e experimentar novas receitas na cozinha.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-4">
+        <div id="projetos" class="container">
+            <div class="row justify-content-center text-light align-items-center">
+                <div>
+                    <h1 class="display-4">Projetos</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos -->
+    <section class="mt-4 mb-5">
+        <div class="container">
+            <div class="row">
+                <!-- Card 1 -->
+                <div class="col-md-4 d-flex mt-2">
+                    <div class="align-self-center text-center">
+                        <div class="card bg-card">
+                            <img src="fotos/proj1.png" alt="" class="card-img-bottom">
+                            <div class="card-body">
+                                <h4 class="card-title">Crazy Cat Gang</h4>
+                                <p class="card-text">Desenvolvimento de um site para ajudar ONG que resgata e cuida de
+                                    gatos de rua</p>
+                                <a href="" class="btn btn-dark">Case </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-4 d-flex  mt-2">
+                    <div class="align-self-center text-center">
+                        <div class="card bg-card">
+                            <img src="fotos/proj2.png" alt="" class="card-img-bottom">
+                            <div class="card-body">
+                                <h4 class="card-title">Master Cooked Pastel</h4>
+                                <p class="card-text">Criação de um jogo de cozinhar pasteis com uma história e gameplay divertida</p>
+                                <a href="" class="btn btn-dark">Case </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-md-4 d-flex  mt-2">
+                    <div class="align-self-center text-center">
+                        <div class="card bg-card">
+                            <img src="fotos/proj3.png" alt="" class="card-img-bottom">
+                            <div class="card-body">
+                                <h4 class="card-title">Educação Celular</h4>
+                                <p class="card-text">Feito em processing, para ajudar criaças a aprenderem biologia</p>
+                                <a href="" class="btn btn-dark">Case </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <div class="fundo-footer">
+        <section id="contato">
+            <div class="container">
+                <div class="row justify-content-center text-light align-items-center text-center" style="height: 350px;">
+                    <!-- Textos -->
+                    <div class="col-md-7  justify-content-center ">
+                        <div class="align-self-center justify-content-center text-light">
+                            <h1 class="display-4">Entre em contato</h1>
+
+                            <form class="mt-4 mb-4">
+                                <div class="input-group input-group-lg">
+                                    <input type="text" name="" placeholder="Seu e-mail" class="form-control">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-light">Enviar</button>
+                                    </div>
+                                </div>
+                            </form>
+                            <p>Ou direto por: 
+                                <a href="" class="btn btn-outline-light text-light"><i class="fa-brands fa-whatsapp fa-md"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Inicio do Footer -->
+        <footer class="pt-4 pb-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-12 d-flex align-self-center">
+                        <p>
+                            <a class="text-light pr-2" href="">Projetos</a>
+                            <a class="text-light pr-2" href="">Quem sou</a>
+                            <a class="text-light pr-2" href="">Contato</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-end">
+                        <a href="https://www.linkedin.com/in/vinicius-marcon/" class="btn btn-outline-light ml-1"><i class="fa-brands fa-linkedin-in fa-md"></i></a>
+                        <a href="https://github.com/ViniciusMarcon1" class="btn btn-outline-light ml-1"><i class="fa-brands fa-github fa-md"></i></a>
+                        <a href="" class="btn btn-outline-light ml-1"><i class="fa-brands fa-whatsapp fa-md"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
